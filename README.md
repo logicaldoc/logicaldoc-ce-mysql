@@ -21,7 +21,7 @@ This image includes EXPOSE 8080 (the logicaldoc port). The default LogicalDOC co
 The LogicalDOC DMS is accesible at http://${DOCKER_HOST}:8080/ and default User and Password are **admin** / **admin**.
 
 ### Not ready for production
-This image with LogicalDOC Community inside is not directly supported and is not ready for productions.
+This image with LogicalDOC Community inside is not directly supported and is not ready for production.
 
 ## Start a LogicalDOC with some settings 
 ```Shell
