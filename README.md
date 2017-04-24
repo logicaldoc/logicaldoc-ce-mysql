@@ -18,7 +18,7 @@ $ docker run -d -p 8080:8080 logicaldoc/logicaldoc-ce-mysql
 ```
 This image includes EXPOSE 8080 (the logicaldoc port). The default LogicalDOC configuration is applied. 
 
-The LogicalDOC DMS is accesible at http://${DOCKER_HOST}:8080/ and default User and Password are **admin** / **admin**.
+The LogicalDOC DMS is accessible at http://${DOCKER_HOST}:8080/ and default User and Password are **admin** / **admin**.
 
 ### Not ready for production
 This image with LogicalDOC Community inside is not directly supported and is not ready for production.
