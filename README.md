@@ -46,6 +46,20 @@ The LogicalDOC image uses environment variables that allow to obtain a more spec
 * **SSH_PSWD**: pasword of the **logicaldoc** SSH user (default is 'logicaldoc')
 
 ## Feature List
+
+
+Feature Name  | Feature Name  | Feature Name
+------------- | ------------- | -------------
+Web-based document management software     | keyword cloud and metadata navigator  | Quick & Easy document search and retreival
+Mobile Apps ( iPhone, iPad, Android )  | Complete activity log  | Dropbox integration
+Permission based access control  | Intuitive and Easy User Interface  | Full-text search across document content and metadata
+Extensible metadata model  | Preview of documents  | Standards-based API (CMIS) simplifies building custom front-ends
+Import from compressed .ZIP archives  | Document versioning, document version control  | Webservices API
+Document Repository Statistics  | Complete Document History with metadata comparison  | Joomla file-browser extension
+Bookmarks on documents  | Notes on documents  | WebDAV interface
+WordPress explorer component  |    |  
+
+
 Web-based document management software
 keyword cloud and metadata navigator
 Quick & Easy document search and retreival
