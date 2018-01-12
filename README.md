@@ -2,11 +2,11 @@
 Docker image for LogicalDOC Community with MySQL
 
 ## What is LogicalDOC CE ?
-LogicalDOC Community Edition (AKA LogicalDOC CE) is an open-source document management system platform
+LogicalDOC Community Edition (AKA LogicalDOC CE) is an open-source document management software platform
 
 ![LogicalDOC](https://www.logicaldoc.com/images/assets/LogicalDocWhiteH02-167.png)
 
-* **WebSite**: https://www.logicaldoc.com
+* **Reference Page**: https://www.logicaldoc.com/download-logicaldoc-community
 * **Community Forums**: https://forums.logicaldoc.com
 * **Manuals**: https://docs.logicaldoc.com
 
@@ -47,10 +47,9 @@ The LogicalDOC image uses environment variables that allow to obtain a more spec
 
 ## Feature List
 
-
 Feature Name  | Feature Name  | Feature Name
 ------------- | ------------- | -------------
-Web-based document management software     | keyword cloud and metadata navigator  | Quick & Easy document search and retreival
+Web-based document management system     | keyword cloud and metadata navigator  | Quick & Easy document search and retreival
 Mobile Apps ( iPhone, iPad, Android )  | Complete activity log  | Dropbox integration
 Permission based access control  | Intuitive and Easy User Interface  | Full-text search across document content and metadata
 Extensible metadata model  | Preview of documents  | Standards-based API (CMIS) simplifies building custom front-ends
@@ -59,29 +58,18 @@ Document Repository Statistics  | Complete Document History with metadata compar
 Bookmarks on documents  | Notes on documents  | WebDAV interface
 WordPress explorer component  |    |  
 
+LogicalDOC is available also in other editions, if you are interested there is a quick comparison matrix at https://www.logicaldoc.com/features
 
-Web-based document management software
-keyword cloud and metadata navigator
-Quick & Easy document search and retreival
-Mobile Apps ( iPhone, iPad, Android )
-Complete activity log
-Dropbox integration
-Permission based access control
-Intuitive and Easy User Interface
-Full-text search across document content and metadata
-Extensible metadata model
-Preview of documents
-Standards-based API (CMIS) simplifies building custom front-ends
-Import from compressed .ZIP archives
-Document versioning, document version control
-Webservices API
-Document Repository Statistics
-Complete Document History with metadata comparison
-Joomla file-browser extension
-Bookmarks on documents
-Notes on documents
-WebDAV interface
-WordPress explorer component
+## Project Open Source 
+LogicalDOC CE project is hosted on SourceForge https://sourceforge.net/projects/logicaldoc/
+On the LogicalDOC website there is a dedicated page which lists additional resources thats spans from the APIs to the developer guide https://www.logicaldoc.com/download-logicaldoc-community
+
+
+
+
+
+
+
 
 
 
