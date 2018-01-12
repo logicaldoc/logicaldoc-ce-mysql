@@ -6,7 +6,7 @@ LogicalDOC Community Edition (AKA LogicalDOC CE) is an open-source document mana
 
 ![LogicalDOC](https://www.logicaldoc.com/images/assets/LogicalDocWhiteH02-167.png)
 
-* **Reference Page**: https://www.logicaldoc.com/download-logicaldoc-community
+* **WebSite**: https://www.logicaldoc.com
 * **Community Forums**: https://forums.logicaldoc.com
 * **Manuals**: https://docs.logicaldoc.com
 
@@ -62,7 +62,8 @@ LogicalDOC is available also in other editions, if you are interested there is a
 
 ## Project Open Source 
 LogicalDOC CE project is hosted on SourceForge https://sourceforge.net/projects/logicaldoc/
-On the LogicalDOC website there is a dedicated page which lists additional resources thats spans from the APIs to the developer guide https://www.logicaldoc.com/download-logicaldoc-community
+
+On the LogicalDOC website there is a dedicated page which lists additional resources that spans from the APIs to the developer guide https://www.logicaldoc.com/download-logicaldoc-community
 
 
 
