@@ -26,7 +26,7 @@ For a complete feature list take a look at https://goo.gl/jVt46s
 
 ## Start a bare LogicalDOC instance
 ```Shell
-$ docker run -d -p 8080:8080 logicaldoc/logicaldoc-ce-mysql
+$ docker run -p 8080:8080 logicaldoc/logicaldoc-ce-mysql
 ```
 This image includes EXPOSE 8080 (the logicaldoc port). The default LogicalDOC configuration is applied. 
 
@@ -49,7 +49,7 @@ The LogicalDOC image uses environment variables that allow to obtain a more spec
 
 Feature Name  | Feature Name  | Feature Name
 ------------- | ------------- | -------------
-Web-based document management system     | keyword cloud and metadata navigator  | Quick & Easy document search and retreival
+Web-based document management system     | Keyword cloud and metadata navigator  | Quick document search and retrieval
 Mobile Apps ( iPhone, iPad, Android )  | Complete activity log  | Dropbox integration
 Permission based access control  | Intuitive and Easy User Interface  | Full-text search across document content and metadata
 Extensible metadata model  | Preview of documents  | Standards-based API (CMIS) simplifies building custom front-ends
