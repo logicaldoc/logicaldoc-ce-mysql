@@ -1,8 +1,8 @@
-# LogicalDOC Document Management System Community Edition ( http://www.logicaldoc.com )
+# LogicalDOC Document Management System Community Edition ( https://www.logicaldoc.com )
 FROM phusion/baseimage
-MAINTAINER "Marco Meschieri" <devel@logicaldoc.com>
+MAINTAINER "Alessandro Gasparini" <devel@logicaldoc.com>
 
-ENV LDOC_VERSION="7.6.4"
+ENV LDOC_VERSION="7.7.3"
 ENV LDOC_MEMORY="2000"
 ENV SSH_PSWD="logicaldoc"
 ENV MYSQL_VERSION="5.7"
@@ -44,6 +44,7 @@ RUN \
 # Some required software for LogicalDOC plugins
 RUN apt-get -y install \ 
     imagemagick \
+    ghostscript \
     curl \
     unzip \
     sudo \
@@ -51,7 +52,7 @@ RUN apt-get -y install \
 
 # Download and unzip logicaldoc installer 
 RUN mkdir /opt/logicaldoc
-RUN curl -L https://sourceforge.net/projects/logicaldoc/files/distribution/LogicalDOC%20CE%207.6/logicaldoc-community-installer-${LDOC_VERSION}.zip/download \
+RUN curl -L https://sourceforge.net/projects/logicaldoc/files/distribution/LogicalDOC%20CE%207.7/logicaldoc-community-installer-${LDOC_VERSION}.zip/download \
     -o /opt/logicaldoc/logicaldoc-installer-${LDOC_VERSION}.zip  && \
     unzip /opt/logicaldoc/logicaldoc-installer-${LDOC_VERSION}.zip -d /opt/logicaldoc && \
     rm /opt/logicaldoc/logicaldoc-installer-${LDOC_VERSION}.zip
